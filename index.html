@@ -5,18 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Cruz - Shopify Developer & Consultant</title>
     
-    <!-- Google Fonts Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Tailwind custom config -->
     <script>
         tailwind.config = {
             theme: {
@@ -54,7 +50,6 @@
     <header class="fixed w-full top-0 z-50 bg-dark-900/80 backdrop-blur-md border-b border-dark-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center cursor-pointer">
                     <i class="fa-brands fa-shopify text-shopify text-3xl mr-2"></i>
                     <span class="font-bold text-lg md:text-xl tracking-tight text-white">
@@ -62,7 +57,6 @@
                     </span>
                 </div>
                 
-                <!-- Header CTA Button (Icon on mobile, Text on Desktop) -->
                 <div class="flex items-center">
                     <a href="#contact" aria-label="Book a Call" class="bg-shopify hover:bg-shopify-dark text-dark-900 font-semibold w-10 h-10 md:w-auto md:h-auto md:px-6 md:py-2.5 rounded-full transition-colors duration-300 shadow-[0_0_15px_rgba(149,191,71,0.3)] hover:shadow-[0_0_20px_rgba(149,191,71,0.5)] flex items-center justify-center">
                         <span class="hidden md:block">Book a Call</span>
@@ -74,7 +68,6 @@
     </header>
 
     <main class="pt-20">
-        <!-- Hero Section -->
         <section class="hero-pattern min-h-[85vh] flex items-center relative overflow-hidden py-14 md:py-0">
             <div class="absolute top-20 right-0 w-72 h-72 bg-shopify/10 rounded-full blur-3xl"></div>
             <div class="absolute bottom-10 left-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
@@ -105,7 +98,6 @@
             </div>
         </section>
 
-        <!-- Client Logos Section -->
         <section class="py-10 border-y border-dark-800 bg-dark-900/50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <p class="text-sm text-gray-500 mb-8 uppercase tracking-widest font-semibold">Brands I've proudly worked with</p>
@@ -120,7 +112,6 @@
             </div>
         </section>
 
-        <!-- Services Section -->
         <section id="services" class="py-24 bg-dark-900">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
@@ -129,23 +120,21 @@
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <!-- Service 1 -->
                     <div class="bg-dark-800 border border-dark-700 p-8 rounded-2xl hover:border-shopify/50 transition-all duration-300 group">
                         <div class="w-14 h-14 bg-dark-900 rounded-xl flex items-center justify-center mb-6 group-hover:bg-shopify/10 transition-colors">
                             <i class="fa-solid fa-puzzle-piece text-shopify text-2xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-3">Complex App Implementations</h3>
+                        <h3 class="text-2xl font-bold text-white mb-3">App Integration & Development</h3>
                         <p class="text-gray-400 leading-relaxed mb-6">
-                            Deep expertise in integrating robust apps (like TryNow) into your store without breaking the UI. I handle everything from logic to display.
+                            Deep expertise in building and integrating robust app solutions (like TryNow) into your store without breaking the UI. From custom Shopify Functions to frontend display, I handle everything end-to-end.
                         </p>
                         <ul class="text-sm text-gray-300 space-y-2">
                             <li><i class="fa-solid fa-check text-shopify mr-2"></i> Side Cart Modifications</li>
-                            <li><i class="fa-solid fa-check text-shopify mr-2"></i> Dynamic Product Tagging</li>
+                            <li><i class="fa-solid fa-check text-shopify mr-2"></i> Shopify Functions & Logic</li>
                             <li><i class="fa-solid fa-check text-shopify mr-2"></i> Action Buttons Integration</li>
                         </ul>
                     </div>
 
-                    <!-- Service 2 -->
                     <div class="bg-dark-800 border border-dark-700 p-8 rounded-2xl hover:border-shopify/50 transition-all duration-300 group relative transform md:-translate-y-4 shadow-[0_10px_30px_rgba(0,0,0,0.5)]">
                         <div class="absolute top-0 right-0 bg-shopify text-dark-900 text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-2xl">CORE EXPERTISE</div>
                         <div class="w-14 h-14 bg-dark-900 rounded-xl flex items-center justify-center mb-6 group-hover:bg-shopify/10 transition-colors">
@@ -162,7 +151,6 @@
                         </ul>
                     </div>
 
-                    <!-- Service 3 -->
                     <div class="bg-dark-800 border border-dark-700 p-8 rounded-2xl hover:border-shopify/50 transition-all duration-300 group">
                         <div class="w-14 h-14 bg-dark-900 rounded-xl flex items-center justify-center mb-6 group-hover:bg-shopify/10 transition-colors">
                             <i class="fa-solid fa-flask text-shopify text-2xl"></i>
@@ -181,7 +169,6 @@
             </div>
         </section>
 
-        <!-- Why Work With Me -->
         <section class="py-24 bg-dark-800">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex flex-col lg:flex-row items-center gap-16">
@@ -212,7 +199,7 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl font-bold text-white">Deep Cart & UI Customization</h4>
-                                    <p class="text-gray-400 mt-1">I don't just install apps; I integrate them. From side cart logic adjustments to dynamic tagging, ensuring a seamless user experience.</p>
+                                    <p class="text-gray-400 mt-1">I don't just install apps; I integrate and develop for them. From side cart logic adjustments and Shopify Functions to frontend integrations, ensuring a seamless user experience.</p>
                                 </div>
                             </div>
 
@@ -250,7 +237,7 @@
                                 </div>
                                 <div class="space-y-4">
                                     <div class="w-full bg-dark-800 p-4 rounded border border-dark-700 flex justify-between items-center">
-                                        <span class="text-gray-400 text-sm">Side Cart TryNow Integration</span>
+                                        <span class="text-gray-400 text-sm">Side Cart & Functions Integration</span>
                                         <span class="text-shopify text-sm font-bold">100%</span>
                                     </div>
                                     <div class="w-full bg-dark-800 p-4 rounded border border-dark-700 flex justify-between items-center">
@@ -269,7 +256,6 @@
             </div>
         </section>
 
-        <!-- Calendly Contact Section -->
         <section id="contact" class="py-20 relative overflow-hidden">
             <div class="absolute inset-0 bg-shopify/10"></div>
             <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
@@ -287,7 +273,6 @@
                         View Available Times <i class="fa-solid fa-arrow-up-right-from-square ml-3"></i>
                     </a>
                     
-                    <!-- Email Fallback -->
                     <div class="mt-6 flex flex-col items-center">
                         <p class="text-xs text-gray-500 mb-2"><i class="fa-solid fa-lock mr-1"></i> No commitment required.</p>
                         <p class="text-sm text-gray-400 mt-4">Prefer email? <a href="mailto:ldavidcp7@gmail.com" class="text-shopify hover:text-white transition-colors border-b border-shopify/30 hover:border-white pb-0.5">ldavidcp7@gmail.com</a></p>
@@ -297,7 +282,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="bg-dark-900 border-t border-dark-800 pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center mb-12">
@@ -310,11 +294,9 @@
                 </div>
                 
                 <div class="flex space-x-6">
-                    <!-- Email Icon -->
                     <a href="mailto:ldavidcp7@gmail.com" class="text-gray-400 hover:text-shopify transition-colors" aria-label="Email David Cruz">
                         <i class="fa-solid fa-envelope text-2xl"></i>
                     </a>
-                    <!-- LinkedIn Icon -->
                     <a href="https://www.linkedin.com/in/isc-luis-david-cruz-pérez-9602" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-shopify transition-colors" aria-label="LinkedIn Profile">
                         <i class="fa-brands fa-linkedin text-2xl"></i>
                     </a>
